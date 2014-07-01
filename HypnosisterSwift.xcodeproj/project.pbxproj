@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80FE9B331962B736006F18B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FE9B321962B736006F18B4 /* AppDelegate.swift */; };
+		80FE9B351962B736006F18B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80FE9B341962B736006F18B4 /* Images.xcassets */; };
+		80FE9B411962B736006F18B4 /* HypnosisterSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FE9B401962B736006F18B4 /* HypnosisterSwiftTests.swift */; };
+		80FE9B4B1962B839006F18B4 /* HypnosisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FE9B4A1962B839006F18B4 /* HypnosisView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80FE9B3B1962B736006F18B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80FE9B251962B735006F18B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80FE9B2C1962B736006F18B4;
+			remoteInfo = HypnosisterSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80FE9B2D1962B736006F18B4 /* HypnosisterSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HypnosisterSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FE9B311962B736006F18B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80FE9B321962B736006F18B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80FE9B341962B736006F18B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		80FE9B3A1962B736006F18B4 /* HypnosisterSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypnosisterSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FE9B3F1962B736006F18B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80FE9B401962B736006F18B4 /* HypnosisterSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypnosisterSwiftTests.swift; sourceTree = "<group>"; };
+		80FE9B4A1962B839006F18B4 /* HypnosisView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HypnosisView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80FE9B2A1962B736006F18B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FE9B371962B736006F18B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80FE9B241962B735006F18B4 = {
+			isa = PBXGroup;
+			children = (
+				80FE9B2F1962B736006F18B4 /* HypnosisterSwift */,
+				80FE9B3D1962B736006F18B4 /* HypnosisterSwiftTests */,
+				80FE9B2E1962B736006F18B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80FE9B2E1962B736006F18B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80FE9B2D1962B736006F18B4 /* HypnosisterSwift.app */,
+				80FE9B3A1962B736006F18B4 /* HypnosisterSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80FE9B2F1962B736006F18B4 /* HypnosisterSwift */ = {
+			isa = PBXGroup;
+			children = (
+				80FE9B321962B736006F18B4 /* AppDelegate.swift */,
+				80FE9B4A1962B839006F18B4 /* HypnosisView.swift */,
+				80FE9B341962B736006F18B4 /* Images.xcassets */,
+				80FE9B301962B736006F18B4 /* Supporting Files */,
+			);
+			path = HypnosisterSwift;
+			sourceTree = "<group>";
+		};
+		80FE9B301962B736006F18B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80FE9B311962B736006F18B4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80FE9B3D1962B736006F18B4 /* HypnosisterSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				80FE9B401962B736006F18B4 /* HypnosisterSwiftTests.swift */,
+				80FE9B3E1962B736006F18B4 /* Supporting Files */,
+			);
+			path = HypnosisterSwiftTests;
+			sourceTree = "<group>";
+		};
+		80FE9B3E1962B736006F18B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80FE9B3F1962B736006F18B4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80FE9B2C1962B736006F18B4 /* HypnosisterSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80FE9B441962B736006F18B4 /* Build configuration list for PBXNativeTarget "HypnosisterSwift" */;
+			buildPhases = (
+				80FE9B291962B736006F18B4 /* Sources */,
+				80FE9B2A1962B736006F18B4 /* Frameworks */,
+				80FE9B2B1962B736006F18B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HypnosisterSwift;
+			productName = HypnosisterSwift;
+			productReference = 80FE9B2D1962B736006F18B4 /* HypnosisterSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80FE9B391962B736006F18B4 /* HypnosisterSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80FE9B471962B736006F18B4 /* Build configuration list for PBXNativeTarget "HypnosisterSwiftTests" */;
+			buildPhases = (
+				80FE9B361962B736006F18B4 /* Sources */,
+				80FE9B371962B736006F18B4 /* Frameworks */,
+				80FE9B381962B736006F18B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80FE9B3C1962B736006F18B4 /* PBXTargetDependency */,
+			);
+			name = HypnosisterSwiftTests;
+			productName = HypnosisterSwiftTests;
+			productReference = 80FE9B3A1962B736006F18B4 /* HypnosisterSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80FE9B251962B735006F18B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Dundee University";
+				TargetAttributes = {
+					80FE9B2C1962B736006F18B4 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					80FE9B391962B736006F18B4 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 80FE9B2C1962B736006F18B4;
+					};
+				};
+			};
+			buildConfigurationList = 80FE9B281962B735006F18B4 /* Build configuration list for PBXProject "HypnosisterSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 80FE9B241962B735006F18B4;
+			productRefGroup = 80FE9B2E1962B736006F18B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80FE9B2C1962B736006F18B4 /* HypnosisterSwift */,
+				80FE9B391962B736006F18B4 /* HypnosisterSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80FE9B2B1962B736006F18B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FE9B351962B736006F18B4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FE9B381962B736006F18B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80FE9B291962B736006F18B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FE9B331962B736006F18B4 /* AppDelegate.swift in Sources */,
+				80FE9B4B1962B839006F18B4 /* HypnosisView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FE9B361962B736006F18B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FE9B411962B736006F18B4 /* HypnosisterSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80FE9B3C1962B736006F18B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80FE9B2C1962B736006F18B4 /* HypnosisterSwift */;
+			targetProxy = 80FE9B3B1962B736006F18B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		80FE9B421962B736006F18B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80FE9B431962B736006F18B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80FE9B451962B736006F18B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HypnosisterSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80FE9B461962B736006F18B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HypnosisterSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		80FE9B481962B736006F18B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HypnosisterSwift.app/HypnosisterSwift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HypnosisterSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		80FE9B491962B736006F18B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HypnosisterSwift.app/HypnosisterSwift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HypnosisterSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80FE9B281962B735006F18B4 /* Build configuration list for PBXProject "HypnosisterSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FE9B421962B736006F18B4 /* Debug */,
+				80FE9B431962B736006F18B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80FE9B441962B736006F18B4 /* Build configuration list for PBXNativeTarget "HypnosisterSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FE9B451962B736006F18B4 /* Debug */,
+				80FE9B461962B736006F18B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80FE9B471962B736006F18B4 /* Build configuration list for PBXNativeTarget "HypnosisterSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FE9B481962B736006F18B4 /* Debug */,
+				80FE9B491962B736006F18B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80FE9B251962B735006F18B4 /* Project object */;
+}
